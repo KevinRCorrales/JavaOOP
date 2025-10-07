@@ -25,6 +25,18 @@ public class Libro {
         return autor;
     }
 
+    public int getAnioPublicacion(){
+        return anioPublicacion;
+    }
+
+    public int getNumeroPaginas(){
+        return numeroPaginas;
+    }
+
+    public boolean getPrestado(){
+        return prestado;
+    }
+
     // 3. Setters ( Escritura / Modificacion )
     public void setAnioPublicacion(int anio) {
         if ( anio <= 2025 && anio > 0) {
